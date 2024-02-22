@@ -6,6 +6,7 @@
 #include "./headers/Decisions.h"
 #include "./headers/loops.h"
 #include "./headers/Functions.h"
+#include "./headers/Structs.h"
 
 
 
@@ -69,11 +70,21 @@ using namespace std;
     /*Loops*/
     //loops();
     /*Functions*/
-    string student= "Cameron James";
-    string language = "C ++";
-    string programmer = "Bjarne Stroustoup";
+    // string student= "Cameron James";
+    // string language = "C ++";
+    // string programmer = "Bjarne Stroustoup";
 
-    congratulate1(student, language, programmer);
+    //congratulate1(student, language, programmer);
 
+    /*Structs*/
+    accessStructMembers();
+
+    //delcare a PErsons struct 
+    PersonType p;
+
+    p.heightInMeters = 1.8;
+    p.weightInKilos = 96;
+    //display computed BMI
+    cout << "Computer BMI is " << bodyMassIndex(p) << endl;  
     return 0;
 }
