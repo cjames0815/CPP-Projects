@@ -61,6 +61,6 @@ void accessStructMembers(void) {
 
 //this functions has a Person struct parameter
 // it will compute and return the BMI of the Person 
-float bodyMassIndex( PersonType p){
-    return p.weightInKilos / (p.heightInMeters * p.heightInMeters);
-}
+// float bodyMassIndex( PersonType p){
+//     return p.weightInKilos / (p.heightInMeters * p.heightInMeters);
+// }
